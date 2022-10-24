@@ -1,0 +1,1141 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* Employees
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-31 03:39+0000\n"
+"PO-Revision-Date: 2022-10-31 03:39+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__10
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__10
+msgid "10:00 AM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__22
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__22
+msgid "10:00 PM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__10_5
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__10_5
+msgid "10:30 AM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__22_5
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__22_5
+msgid "10:30 PM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__11
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__11
+msgid "11:00 AM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__23
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__23
+msgid "11:00 PM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__11_5
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__11_5
+msgid "11:30 AM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__23_5
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__23_5
+msgid "11:30 PM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__0
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__0
+msgid "12:00 AM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__12
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__12
+msgid "12:00 PM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__0_5
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__0_5
+msgid "12:30 AM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__12_5
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__12_5
+msgid "12:30 PM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__1
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__1
+msgid "1:00 AM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__13
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__13
+msgid "1:00 PM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__1_5
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__1_5
+msgid "1:30 AM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__13_5
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__13_5
+msgid "1:30 PM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__2
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__2
+msgid "2:00 AM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__14
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__14
+msgid "2:00 PM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__2_5
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__2_5
+msgid "2:30 AM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__14_5
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__14_5
+msgid "2:30 PM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__3
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__3
+msgid "3:00 AM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__15
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__15
+msgid "3:00 PM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__3_5
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__3_5
+msgid "3:30 AM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__15_5
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__15_5
+msgid "3:30 PM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__4
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__4
+msgid "4:00 AM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__16
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__16
+msgid "4:00 PM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__4_5
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__4_5
+msgid "4:30 AM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__16_5
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__16_5
+msgid "4:30 PM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__5
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__5
+msgid "5:00 AM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__17
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__17
+msgid "5:00 PM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__5_5
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__5_5
+msgid "5:30 AM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__17_5
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__17_5
+msgid "5:30 PM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__6
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__6
+msgid "6:00 AM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__18
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__18
+msgid "6:00 PM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__6_5
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__6_5
+msgid "6:30 AM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__18_5
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__18_5
+msgid "6:30 PM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__7
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__7
+msgid "7:00 AM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__19
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__19
+msgid "7:00 PM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__7_5
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__7_5
+msgid "7:30 AM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__19_5
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__19_5
+msgid "7:30 PM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__8
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__8
+msgid "8:00 AM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__20
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__20
+msgid "8:00 PM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__8_5
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__8_5
+msgid "8:30 AM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__20_5
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__20_5
+msgid "8:30 PM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__9
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__9
+msgid "9:00 AM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__21
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__21
+msgid "9:00 PM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__9_5
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__9_5
+msgid "9:30 AM"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_from__21_5
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_hour_to__21_5
+msgid "9:30 PM"
+msgstr ""
+
+#. module: Employees
+#: model_terms:ir.ui.view,arch_db:Employees.employees_leave_form_view
+msgid ""
+"<span class=\"oe_inline\" attrs=\"{'invisible': ['|', ('request_unit_half', '=', True), ('request_unit_hours', '=', True)]}\">\n"
+"                                    From\n"
+"                                </span>"
+msgstr ""
+
+#. module: Employees
+#: model_terms:ir.ui.view,arch_db:Employees.employees_leave_form_view
+msgid ""
+"<span class=\"oe_inline\" attrs=\"{'invisible': ['|', ('request_unit_half', '=', True), ('request_unit_hours', '=', True)]}\">\n"
+"                                    To\n"
+"                                </span>"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_information__active
+msgid "Active"
+msgstr ""
+
+#. module: Employees
+#: model:ir.actions.act_window,name:Employees.Add_Department_Wizard_Actions
+msgid "Add Department"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model,name:Employees.model_add_department_wizard
+msgid "Add Department Wizard"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_information__address
+msgid "Address"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_date_from_period__pm
+msgid "Afternoon"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__state__validate1
+#: model_terms:ir.ui.view,arch_db:Employees.employees_leave_form_view
+msgid "Approved"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_information__avatar
+msgid "Avatar"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_project__state__cancel
+#: model_terms:ir.ui.view,arch_db:Employees.Add_Department_Wizard_Form
+#: model_terms:ir.ui.view,arch_db:Employees.employees_project_views_form
+msgid "Cancel"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_attendance__check_in
+msgid "Check In"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,help:Employees.field_employees_attendance__check_in
+msgid "Check In Employees"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_attendance__check_out
+msgid "Check Out"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_department__child_ids
+msgid "Child Department"
+msgstr ""
+
+#. module: Employees
+#: model_terms:ir.ui.view,arch_db:Employees.Add_Department_Wizard_Form
+msgid "Confirm"
+msgstr ""
+
+#. module: Employees
+#: model_terms:ir.ui.view,arch_db:Employees.Add_Department_Wizard_Form
+msgid "Contract"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_contract__name
+msgid "Contract Name"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_information__employees_types__contractor
+msgid "Contractor"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_add_department_wizard__create_uid
+#: model:ir.model.fields,field_description:Employees.field_employees_attendance__create_uid
+#: model:ir.model.fields,field_description:Employees.field_employees_contract__create_uid
+#: model:ir.model.fields,field_description:Employees.field_employees_department__create_uid
+#: model:ir.model.fields,field_description:Employees.field_employees_information__create_uid
+#: model:ir.model.fields,field_description:Employees.field_employees_job__create_uid
+#: model:ir.model.fields,field_description:Employees.field_employees_leave__create_uid
+#: model:ir.model.fields,field_description:Employees.field_employees_leave_type__create_uid
+#: model:ir.model.fields,field_description:Employees.field_employees_payslip__create_uid
+#: model:ir.model.fields,field_description:Employees.field_employees_project__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_add_department_wizard__create_date
+#: model:ir.model.fields,field_description:Employees.field_employees_attendance__create_date
+#: model:ir.model.fields,field_description:Employees.field_employees_contract__create_date
+#: model:ir.model.fields,field_description:Employees.field_employees_department__create_date
+#: model:ir.model.fields,field_description:Employees.field_employees_information__create_date
+#: model:ir.model.fields,field_description:Employees.field_employees_job__create_date
+#: model:ir.model.fields,field_description:Employees.field_employees_leave__create_date
+#: model:ir.model.fields,field_description:Employees.field_employees_leave_type__create_date
+#: model:ir.model.fields,field_description:Employees.field_employees_payslip__create_date
+#: model:ir.model.fields,field_description:Employees.field_employees_project__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_payslip__currency_id
+msgid "Currency"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_leave__request_unit_hours
+msgid "Custom Hours"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_information__project_date_deadline
+#: model:ir.model.fields,field_description:Employees.field_employees_project__date_deadline
+msgid "Date Deadline"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_information__date_of_birth
+msgid "Date Of Birth"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_leave__request_date_from_period
+msgid "Date Period Start"
+msgstr ""
+
+#. module: Employees
+#: model_terms:ir.ui.view,arch_db:Employees.employees_leave_form_view
+msgid "Dates"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_leave__request_unit_custom
+msgid "Days-long custom hours"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_add_department_wizard__department
+#: model:ir.model.fields,field_description:Employees.field_employees_department__name
+#: model:ir.model.fields,field_description:Employees.field_employees_information__department
+msgid "Department"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_leave__name
+msgid "Description"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_add_department_wizard__display_name
+#: model:ir.model.fields,field_description:Employees.field_employees_attendance__display_name
+#: model:ir.model.fields,field_description:Employees.field_employees_contract__display_name
+#: model:ir.model.fields,field_description:Employees.field_employees_department__display_name
+#: model:ir.model.fields,field_description:Employees.field_employees_information__display_name
+#: model:ir.model.fields,field_description:Employees.field_employees_job__display_name
+#: model:ir.model.fields,field_description:Employees.field_employees_leave__display_name
+#: model:ir.model.fields,field_description:Employees.field_employees_leave_type__display_name
+#: model:ir.model.fields,field_description:Employees.field_employees_payslip__display_name
+#: model:ir.model.fields,field_description:Employees.field_employees_project__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__state__draft
+#: model:ir.model.fields.selection,name:Employees.selection__employees_project__state__draft
+msgid "Draft"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_leave__number_of_days
+#: model:ir.model.fields,field_description:Employees.field_employees_leave__number_of_hours
+msgid "Duration"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_leave__number_of_days_display
+msgid "Duration in days"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_leave__number_of_hours_display
+msgid "Duration in hours"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_attendance__early_attendance_hours
+msgid "Early Hours"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_information__email
+msgid "Email"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_information__employees_types__employee
+msgid "Employee"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_attendance__employees_id
+#: model:ir.model.fields,field_description:Employees.field_employees_contract__employees_id
+#: model:ir.model.fields,field_description:Employees.field_employees_leave__employees_id
+#: model:ir.model.fields,field_description:Employees.field_employees_payslip__employees_ids
+#: model:ir.module.category,name:Employees.module_category_employees
+#: model:ir.ui.menu,name:Employees.Employees_Menuitems
+#: model:ir.ui.menu,name:Employees.Employees_root
+#: model:res.groups,name:Employees.group_employees_user
+#: model_terms:ir.ui.view,arch_db:Employees.employees_department_views_kanban
+#: model_terms:ir.ui.view,arch_db:Employees.employees_information_views_kanban
+msgid "Employees"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model,name:Employees.model_employees_attendance
+msgid "Employees Attendance"
+msgstr ""
+
+#. module: Employees
+#: model:ir.actions.act_window,name:Employees.Employees_Attendance_Action
+msgid "Employees Attendance Actions"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model,name:Employees.model_employees_contract
+#: model:ir.ui.menu,name:Employees.Employess_Contract
+msgid "Employees Contract"
+msgstr ""
+
+#. module: Employees
+#: model:ir.actions.act_window,name:Employees.employees_contract_actions
+msgid "Employees Contract Actions "
+msgstr ""
+
+#. module: Employees
+#: model_terms:ir.ui.view,arch_db:Employees.employees_contract_view_calendar
+msgid "Employees Contract Calendar"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model,name:Employees.model_employees_department
+#: model:ir.ui.menu,name:Employees.Employees_Department
+msgid "Employees Department"
+msgstr ""
+
+#. module: Employees
+#: model:ir.actions.act_window,name:Employees.employees_department_actions
+msgid "Employees Department Actions "
+msgstr ""
+
+#. module: Employees
+#: model:ir.ui.menu,name:Employees.Employees_Details
+msgid "Employees Details"
+msgstr ""
+
+#. module: Employees
+#: model:ir.ui.menu,name:Employees.Employees_Holidays
+msgid "Employees Holidays"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model,name:Employees.model_employees_information
+#: model:ir.ui.menu,name:Employees.Employees_Information
+msgid "Employees Information"
+msgstr ""
+
+#. module: Employees
+#: model:ir.actions.act_window,name:Employees.employees_information_actions
+msgid "Employees Information Actions"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model,name:Employees.model_employees_leave
+#: model:ir.ui.menu,name:Employees.Employess_Leave
+msgid "Employees Leave"
+msgstr ""
+
+#. module: Employees
+#: model:ir.actions.act_window,name:Employees.employees_leave_actions
+#: model:ir.actions.act_window,name:Employees.employees_leave_type_actions
+msgid "Employees Leave Actions"
+msgstr ""
+
+#. module: Employees
+#: model_terms:ir.ui.view,arch_db:Employees.employees_leave_view_calendar
+msgid "Employees Leave Calendar"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model,name:Employees.model_employees_leave_type
+#: model:ir.ui.menu,name:Employees.Employess_Leave_Type
+msgid "Employees Leave Type"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model,name:Employees.model_employees_payslip
+#: model:ir.ui.menu,name:Employees.Employees_Payslip
+msgid "Employees Payslip"
+msgstr ""
+
+#. module: Employees
+#: model:ir.actions.act_window,name:Employees.employees_payslip_actions
+msgid "Employees Payslip Actions "
+msgstr ""
+
+#. module: Employees
+#: model:ir.model,name:Employees.model_employees_project
+#: model:ir.ui.menu,name:Employees.Employess_Project
+msgid "Employees Project"
+msgstr ""
+
+#. module: Employees
+#: model:ir.actions.act_window,name:Employees.employees_project_actions
+msgid "Employees Project Actions"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_information__employees_types
+msgid "Employees Types"
+msgstr ""
+
+#. module: Employees
+#: model:ir.ui.menu,name:Employees.Employees_Attendance
+msgid "Employees_Attendance"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_contract__end_date_contract
+msgid "End Date Contract"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_leave__date_to
+msgid "End Off"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_information__gender__female
+msgid "Female"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_project__state__finish
+#: model_terms:ir.ui.view,arch_db:Employees.employees_project_views_form
+msgid "Finish"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_information__first_name
+msgid "First Name"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_information__employees_types__freelance
+msgid "Freelance"
+msgstr ""
+
+#. module: Employees
+#: model_terms:ir.ui.view,arch_db:Employees.employees_leave_form_view
+msgid "From"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_information__gender
+msgid "Gender"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_leave__request_unit_half
+msgid "Half Day"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_information__holidays_ids
+msgid "Holidays"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_information__holidays_count
+msgid "Holidays Count"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_leave__request_hour_from
+msgid "Hour from"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_leave__request_hour_to
+msgid "Hour to"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_add_department_wizard__id
+#: model:ir.model.fields,field_description:Employees.field_employees_attendance__id
+#: model:ir.model.fields,field_description:Employees.field_employees_contract__id
+#: model:ir.model.fields,field_description:Employees.field_employees_department__id
+#: model:ir.model.fields,field_description:Employees.field_employees_information__id
+#: model:ir.model.fields,field_description:Employees.field_employees_job__id
+#: model:ir.model.fields,field_description:Employees.field_employees_leave__id
+#: model:ir.model.fields,field_description:Employees.field_employees_leave_type__id
+#: model:ir.model.fields,field_description:Employees.field_employees_payslip__id
+#: model:ir.model.fields,field_description:Employees.field_employees_project__id
+msgid "ID"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_information__ids_employees
+msgid "ID Employees"
+msgstr ""
+
+#. module: Employees
+#: model_terms:ir.ui.view,arch_db:Employees.employees_information_template
+msgid "ID nhân viên"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_department__id_employees
+msgid "Id Employees"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_information__identification_no
+msgid "Identification"
+msgstr ""
+
+#. module: Employees
+#: model_terms:ir.ui.view,arch_db:Employees.employees_leave_form_view
+msgid "In"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_project__state__in_process
+#: model_terms:ir.ui.view,arch_db:Employees.employees_project_views_form
+msgid "In Process"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_payslip__insurance_fee
+msgid "Insurance fee"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_information__job_tittles
+msgid "Job Tittle"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_add_department_wizard____last_update
+#: model:ir.model.fields,field_description:Employees.field_employees_attendance____last_update
+#: model:ir.model.fields,field_description:Employees.field_employees_contract____last_update
+#: model:ir.model.fields,field_description:Employees.field_employees_department____last_update
+#: model:ir.model.fields,field_description:Employees.field_employees_information____last_update
+#: model:ir.model.fields,field_description:Employees.field_employees_job____last_update
+#: model:ir.model.fields,field_description:Employees.field_employees_leave____last_update
+#: model:ir.model.fields,field_description:Employees.field_employees_leave_type____last_update
+#: model:ir.model.fields,field_description:Employees.field_employees_payslip____last_update
+#: model:ir.model.fields,field_description:Employees.field_employees_project____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_information__last_name
+msgid "Last Name"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_add_department_wizard__write_uid
+#: model:ir.model.fields,field_description:Employees.field_employees_attendance__write_uid
+#: model:ir.model.fields,field_description:Employees.field_employees_contract__write_uid
+#: model:ir.model.fields,field_description:Employees.field_employees_department__write_uid
+#: model:ir.model.fields,field_description:Employees.field_employees_information__write_uid
+#: model:ir.model.fields,field_description:Employees.field_employees_job__write_uid
+#: model:ir.model.fields,field_description:Employees.field_employees_leave__write_uid
+#: model:ir.model.fields,field_description:Employees.field_employees_leave_type__write_uid
+#: model:ir.model.fields,field_description:Employees.field_employees_payslip__write_uid
+#: model:ir.model.fields,field_description:Employees.field_employees_project__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_add_department_wizard__write_date
+#: model:ir.model.fields,field_description:Employees.field_employees_attendance__write_date
+#: model:ir.model.fields,field_description:Employees.field_employees_contract__write_date
+#: model:ir.model.fields,field_description:Employees.field_employees_department__write_date
+#: model:ir.model.fields,field_description:Employees.field_employees_information__write_date
+#: model:ir.model.fields,field_description:Employees.field_employees_job__write_date
+#: model:ir.model.fields,field_description:Employees.field_employees_leave__write_date
+#: model:ir.model.fields,field_description:Employees.field_employees_leave_type__write_date
+#: model:ir.model.fields,field_description:Employees.field_employees_payslip__write_date
+#: model:ir.model.fields,field_description:Employees.field_employees_project__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_attendance__late_attendance_hours
+msgid "Late Hours"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_leave__leave_type_ids
+msgid "Leave Type"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_payslip__lunch_days
+msgid "Lunch days"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_payslip__lunch_fee
+msgid "Lunch fee"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_information__gender__male
+msgid "Male"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_information__manager
+#: model:ir.model.fields,field_description:Employees.field_employees_leave__manager
+#: model:res.groups,name:Employees.group_employees_manager
+msgid "Manager"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__request_date_from_period__am
+msgid "Morning"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_information__name
+#: model:ir.model.fields,field_description:Employees.field_employees_job__name
+#: model:ir.model.fields,field_description:Employees.field_employees_leave_type__name
+#: model:ir.model.fields,field_description:Employees.field_employees_payslip__name
+msgid "Name"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_information__project_name
+#: model:ir.model.fields,field_description:Employees.field_employees_project__name
+msgid "Name Project"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_information__nationality
+msgid "Nationality"
+msgstr ""
+
+#. module: Employees
+#: model:ir.actions.report,name:Employees.report_employees_information
+#: model_terms:ir.ui.view,arch_db:Employees.employees_information_template
+msgid "Nhân Viên"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,help:Employees.field_employees_leave__number_of_days_display
+msgid ""
+"Number of days of the time off request according to your working schedule. "
+"Used for interface."
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,help:Employees.field_employees_leave__number_of_hours_display
+msgid ""
+"Number of hours of the time off request according to your working schedule. "
+"Used for interface."
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_information__gender__other
+msgid "Other"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_payslip__paid_rate
+msgid "Paid rates"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_department__parent_id
+msgid "Parent Department"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_information__partner
+msgid "Partner"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_information__phone
+msgid "Phone"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_information__project_id
+msgid "Project"
+msgstr ""
+
+#. module: Employees
+#: model_terms:ir.ui.view,arch_db:Employees.employees_information_views_form
+msgid "Project Description"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_project__project_employees
+msgid "Project Employees"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__state__refuse
+#: model_terms:ir.ui.view,arch_db:Employees.employees_leave_form_view
+msgid "Refuse"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model,name:Employees.model_resource_calendar
+msgid "Resource Working Time"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__state__validate
+msgid "Second Approval"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_leave_type__sequence
+msgid "Sequence"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_leave__date_from
+msgid "Start Off"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_leave__state
+#: model:ir.model.fields,field_description:Employees.field_employees_project__state
+msgid "State"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_information__employees_types__student
+msgid "Student"
+msgstr ""
+
+#. module: Employees
+#: code:addons/Employees/models/hr_leave.py:0
+#, python-format
+msgid "THE END CANNOT LOWER THAN THE START DATE "
+msgstr ""
+
+#. module: Employees
+#: model_terms:ir.ui.view,arch_db:Employees.employees_project_views_form
+msgid "Test"
+msgstr ""
+
+#. module: Employees
+#: code:addons/Employees/models/hr_attendance.py:0
+#, python-format
+msgid "The Check In Time cannot lower than Check out time"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.constraint,message:Employees.constraint_employees_information_check_ids_employees
+msgid "The ID Employees has been created"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_information__update_days
+msgid "The Lastest Update"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.constraint,message:Employees.constraint_employees_department_check_name
+msgid "The Name of Department has been created"
+msgstr ""
+
+#. module: Employees
+#: code:addons/Employees/models/hr_project.py:0
+#, python-format
+msgid "The Name of project has been used"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.constraint,message:Employees.constraint_employees_payslip_check_total_paid
+msgid "The Total Paid have to greater than zero"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,help:Employees.field_employees_leave_type__sequence
+msgid ""
+"The type with the smallest sequence is the default value in time off request"
+msgstr ""
+
+#. module: Employees
+#: model_terms:ir.actions.act_window,help:Employees.employees_contract_actions
+msgid "There is no record here."
+msgstr ""
+
+#. module: Employees
+#: model_terms:ir.ui.view,arch_db:Employees.employees_leave_form_view
+msgid "To"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_leave__state__confirm
+msgid "To Approve"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_payslip__total_paid
+msgid "Total Paid"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields.selection,name:Employees.selection__employees_information__employees_types__trainee
+msgid "Trainee"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_attendance__user_id
+#: model:ir.model.fields,field_description:Employees.field_employees_contract__user_id
+#: model:ir.model.fields,field_description:Employees.field_employees_information__user_id
+#: model:ir.model.fields,field_description:Employees.field_employees_leave__user_id
+#: model:ir.model.fields,field_description:Employees.field_employees_payslip__user_id
+#: model:ir.model.fields,field_description:Employees.field_employees_project__user_id
+#: model:ir.model.fields,field_description:Employees.field_resource_calendar__user_id
+msgid "User"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_contract__validity
+#: model:ir.model.fields,field_description:Employees.field_employees_project__validity
+msgid "Validity"
+msgstr ""
+
+#. module: Employees
+#: model_terms:ir.ui.view,arch_db:Employees.employees_information_template
+msgid "Vị trí"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_information__work_location
+msgid "Work Location"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_job__workplace
+msgid "Work place"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_attendance__valid_worked_hours
+msgid "Worked Hours"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model.fields,field_description:Employees.field_employees_payslip__worked_hours
+msgid "Worked hours"
+msgstr ""
+
+#. module: Employees
+#: model_terms:ir.ui.view,arch_db:Employees.employees_payslip_views_graph
+msgid "Working Hours"
+msgstr ""
+
+#. module: Employees
+#: code:addons/Employees/models/hr_leave.py:0
+#, python-format
+msgid "YOU CANNOT CHOOSSE DATE IN THE PAST"
+msgstr ""
+
+#. module: Employees
+#: code:addons/Employees/models/hr_leave.py:0
+#, python-format
+msgid ""
+"You can not set 2 time off that overlaps on the same day for the same "
+"employee."
+msgstr ""
+
+#. module: Employees
+#: code:addons/Employees/models/hr_department.py:0
+#, python-format
+msgid "You cannot create recursive departments."
+msgstr ""
+
+#. module: Employees
+#: code:addons/Employees/models/hr_attendance.py:0
+#, python-format
+msgid "You cannot delete the finish days"
+msgstr ""
+
+#. module: Employees
+#: code:addons/Employees/models/hr_leave.py:0
+#, python-format
+msgid "You cannot delete the finish holidays"
+msgstr ""
+
+#. module: Employees
+#: model:ir.model,name:Employees.model_employees_job
+msgid "job Description"
+msgstr ""
+
+#. module: Employees
+#: model_terms:ir.ui.view,arch_db:Employees.employees_information_views_form
+msgid "test"
+msgstr ""

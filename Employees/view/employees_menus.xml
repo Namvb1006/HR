@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+<data>
+<menuitem id="Employees_root" name="Employees" />
+<menuitem id="Employees_Details" name="Employees Details" parent="Employees_root" />
+<menuitem id="Employees_Holidays" name="Employees Holidays" parent="Employees_root" />
+<menuitem id="Employees_Menuitems" name="Employees" parent="Employees_root"/>
+<menuitem id="Employees_Information" action="employees_information_actions" name="Employees Information" parent="Employees_Details"/>
+<menuitem id="Employees_Department" action="employees_department_actions" name="Employees Department" parent="Employees_root"/>
+<menuitem id="Employess_Project" action="employees_project_actions" name="Employees Project" parent="Employees_root"/>
+<menuitem id="Employess_Contract" action="employees_contract_actions" name="Employees Contract" parent="Employees_Details"/>
+<menuitem id="Employees_Payslip" action="employees_payslip_actions" name="Employees Payslip" parent="Employees_Details"/>
+<menuitem id="Employees_Attendance" action="Employees_Attendance_Action" name="Employees Attendance" parent="Employees_Details"/>
+<menuitem id="Employess_Leave" action="employees_leave_actions" name="Employees Leave" parent="Employees_Holidays"/>
+<menuitem id="Employess_Leave_Type" action="employees_leave_type_actions" name="Employees Leave Type" parent="Employees_Holidays"/>
+</data>
+</odoo>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<record id="employees_leave_tree_view" model="ir.ui.view">
+		<field name="name">Employees Leave View</field>
+		<field name="model">employees.leave</field>
+		<field name="arch" type="xml">
+			<tree>
+				<field name="leave_type_ids"/>
+				<field name="state" decoration-danger="state == 'Refuse'" decoration-success="state == 'Validate1'" decoration-info="state == 'Draft'"/>
+				<field name="date_from"/>
+				<field name="date_to"/>
+				<field name="number_of_days"/>
+				
+				<field name="name"/>
+			</tree>
+		</field>
+	</record>
+	
+	<record id="employees_leave_form_view" model="ir.ui.view">
+		<field name="name">Employees Leave View</field>
+		<field name="model">employees.leave</field>
+		<field name="arch" type="xml">
+			<form>
+				<header>
+					<button name="action_refuse" type="object" string="Refuse" class="oe_highlight" groups="Employees.group_employees_manager" attrs="{'invisible':[('state','=', 'Validate1')]}"/>
+					<button name="action_approved" type="object" string="Approved" class="oe_highlight" groups="Employees.group_employees_manager" attrs="{'invisible':[('state','=', 'Refuse')]}"/>
+					<field name="state" widget="statusbar"  statusbar_visible="Draft,Confirm,Refuse,Validate,Validate1"/>
+				</header>
+				<sheet>
+						<group name="col_left">
+							<field name="leave_type_ids"/>
+							<label for="date_from" string="Dates" id="label_dates"/>
+							<div>
+							<div class="o_row o_row_readonly">
+                                <span class="oe_inline"
+                                attrs="{'invisible': ['|', ('request_unit_half', '=', True), ('request_unit_hours', '=', True)]}">
+                                    From
+                                </span>
+                                <field name="date_from" class="oe_inline" nolabel="1"
+                                attrs="{'readonly': [('state', 'not in', ('Draft', 'Confirm'))],
+                                            'required': ['|', ('date_from', '=', False), ('date_to', '=', False)]
+                                            }"
+                                    widget="daterange" options="{'related_end_date': 'date_to'}"/>
+                                <span class="oe_inline"
+                                attrs="{'invisible': ['|', ('request_unit_half', '=', True), ('request_unit_hours', '=', True)]}">
+                                    To
+                                </span>
+                                <field name="date_to" class="oe_inline"
+                                attrs="{
+                                        'readonly': [('state', 'not in', ('Draft', 'Confirm'))],
+                                        'invisible': ['|', ('request_unit_half', '=', True), ('request_unit_hours', '=', True)],
+                                        'required': ['|', ('date_from', '=', False), ('date_to', '=', False)]
+                                            }"
+                                    widget="daterange" options="{'related_start_date': 'date_from'}"/>
+                                <field name="request_date_from_period" class="oe_inline"
+                                    string="In"
+                                    options="{'horizontal': True}"
+                                    attrs="{
+                                        'readonly': [('state', 'not in', ('Draft', 'Confirm'))],
+                                        'required': [('request_unit_half', '=', True)],
+                                        'invisible': [('request_unit_half', '=', False)]}"/>
+                            </div>
+							<div class="o_row o_row_readonly">
+                                <label for="request_hour_from" string="From"
+                                    attrs="{'invisible': [('request_unit_hours', '=', False)]}"/>
+                                <field name="request_hour_from"
+                                    attrs="{
+                                        'readonly': [('state', '=', 'validate')],
+                                        'required': [('request_unit_hours', '=', True)],
+                                        'invisible': [('request_unit_hours', '=', False)]}"/>
+                                <label for="request_hour_to" string="To"
+                                    attrs="{'invisible': [('request_unit_hours', '=', False)]}"/>
+                                <field name="request_hour_to"
+                                    attrs="{
+                                        'readonly': [('state', '=', 'validate')],
+                                        'required': [('request_unit_hours', '=', True)],
+                                        'invisible': [('request_unit_hours', '=', False)]}"/>
+                            </div>
+							</div>
+							<field name="number_of_hours_display"/>
+							<field name="number_of_days_display"/>
+							<field name="request_unit_half" />
+							<field name="request_unit_hours"/>
+							<field name="employees_id"/>
+							<field name="user_id"/>
+							<field name="manager"/>
+							<field name="name"/>					
+							</group>
+				</sheet>
+			</form>
+		</field>
+	</record>
+	
+	
+	<record id="employees_leave_view_calendar" model="ir.ui.view">
+		<field name="name">Employees Leave Calendar</field>
+		<field name="model">employees.leave</field>
+		<field name="arch" type="xml">
+			<calendar string="Employees Leave Calendar" date_start="date_from" date_stop="date_to">
+				<field name="name"/>
+				<field name="employees_id"/>
+				<field name="number_of_hours_display"/>
+			</calendar>
+		</field>
+	</record>
+	
+	
+	
+	
+	<record id="employees_leave_actions" model="ir.actions.act_window">
+		<field name="name">Employees Leave Actions</field>
+		<field name="res_model">employees.leave</field>
+		<field name="view_mode">tree,calendar,form</field>
+	</record>
+	
+	
+	
+</odoo>

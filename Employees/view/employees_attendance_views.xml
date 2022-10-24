@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+<record id="Employees_Attendance_View_Tree" model="ir.ui.view">
+	<field name="name">Employees Attendance View Tree</field>
+	<field name="model">employees.attendance</field>
+	<field name="arch" type="xml">
+		<tree>
+			<field name="employees_id" />
+			<field name="check_in" />
+			<field name="check_out" />
+			<field name="late_attendance_hours" />
+			<field name="early_attendance_hours" />
+			<field name="valid_worked_hours" />
+		</tree>
+	</field>
+</record>
+
+<record id="Employees_Attendance_View_Form" model="ir.ui.view">
+	<field name="name">Employees Attendance View Form</field>
+	<field name="model">employees.attendance</field>
+	<field name="arch" type="xml">
+		<form>
+				<header>
+					<button name="check_time_in" type="object" string="Check In" class="oe_highlight" attrs="{'invisible':[('state','!=', 'draft')]}"/>
+					<button name="check_time_out" type="object" string="Check Out" class="oe_highlight" attrs="{'invisible':[('state','!=', 'check_in')]}"  />
+					<field name="state" widget="statusbar"/>
+				</header>
+			<sheet>
+				<group>
+					<field name="employees_id" />
+					<field name="check_in" />
+					<field name="check_out" />
+					<field name="late_attendance_hours" />
+					<field name="early_attendance_hours" />
+					<field name="valid_worked_hours" />
+					<field name="user_id" />
+				</group>
+			</sheet>
+		</form>
+	</field>
+</record>
+
+
+<record id="Employees_Attendance_Action" model="ir.actions.act_window">
+	<field name="name">Employees Attendance Actions</field>
+	<field name="res_model">employees.attendance</field>
+	<field name="view_mode">tree,form</field>
+</record>
+
+
+</odoo>

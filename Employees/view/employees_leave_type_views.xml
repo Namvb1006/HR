@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<record id="employees_leave_type_tree_view" model="ir.ui.view">
+		<field name="name">Employees Type Leave View</field>
+		<field name="model">employees.leave.type</field>
+		<field name="arch" type="xml">
+			<tree>
+				<field name="name"/>
+			</tree>
+		</field>
+	</record>
+	
+	<record id="employees_leave_type_form_view" model="ir.ui.view">
+		<field name="name">Employees Type Leave View</field>
+		<field name="model">employees.leave.type</field>
+		<field name="arch" type="xml">
+			<form>
+				<sheet>
+					<group>
+						<field name="name"/>
+						<field name="sequence" invisible="True"/>
+					</group>
+				</sheet>
+			</form>
+		</field>
+	</record>
+	
+	
+	<record id="employees_leave_type_actions" model="ir.actions.act_window">
+		<field name="name">Employees Leave Actions</field>
+		<field name="res_model">employees.leave.type</field>
+		<field name="view_mode">tree,form</field>
+	</record>
+	
+	
+	
+</odoo>

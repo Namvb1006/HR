@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+<record id="Add_Department_Wizard_Form" model="ir.ui.view">
+	<field name="name">add.department.wizard.form</field>
+	<field name="model">add.department.wizard</field>
+	<field name="arch" type="xml">
+		<form string="Contract">
+			<group>
+				<field name="department" />
+			</group>
+			<footer>
+				 <button special="cancel" string="Cancel"/>
+				<button name="action_confirm" type="object" string="Confirm" class="oe_highlight"/>
+			</footer>
+		</form>
+	</field>
+</record>
+
+
+<record id="Add_Department_Wizard_Actions" model="ir.actions.act_window" >
+	<field name="name">Add Department</field>
+	<field name="binding_model_id" ref ="model_employees_information"/>
+	<field name="res_model">add.department.wizard</field>
+	<field name="view_mode">form</field>
+    <field name="target">new</field>
+</record>
+
+</odoo>
