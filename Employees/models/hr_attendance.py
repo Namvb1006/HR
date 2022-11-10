@@ -23,6 +23,7 @@ class Employees_Attendance(models.Model):
     valid_worked_hours=fields.Float("Worked Hours",compute="_compute_worked_hours",readonly=True,store=True)
     user_id=fields.Many2one(comodel_name="res.users", related="employees_id.user_id")
     state = fields.Selection(selection=[('draft', 'Draft'), ('check_in','Check In'), ('check_out', 'Check Out')], string="State", default='draft')
+    
     def check_time_in(self):
         time_now = fields.Datetime.now()
         self.check_in=time_now

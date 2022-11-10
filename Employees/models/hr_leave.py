@@ -9,14 +9,13 @@ from odoo import fields,api,models,_
 class Employees_Leave(models.Model):    
     _name="employees.leave"
     _description="Employees Leave"
-    _rec_name="employees_id"
+    _rec_name="id"
     leave_type_ids=fields.Many2one("employees.leave.type")
     date_from=fields.Date("Start Off")
     date_to=fields.Date("End Off")
     number_of_days=fields.Float(string="Duration",compute="_compute_total_days",store=True)
     number_of_hours=fields.Float(string="Duration",compute="_compute_number_of_hours",store=True)
     name=fields.Text(string="Description")
-    
     def default_employees(self):
         return self.env['employees.information'].search([('user_id','=', self.env.user.id)])
     

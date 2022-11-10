@@ -8,7 +8,7 @@ class Employees_Add_Department_Wizard(models.TransientModel):
         employees_id=self.env["employees.information"].browse(self.env.context['active_ids'])
         new_data={}
         if self.department:
-            new_data["department"]=self.department
+            new_data.update({"department":self.department})
             employees_id.write(new_data)
         
     

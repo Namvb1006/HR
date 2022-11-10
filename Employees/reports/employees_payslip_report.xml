@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="report_employees_payslip" model="ir.actions.report">
+        <field name="name">Nhân Viên</field>
+        <field name="model">employees.payslip</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">Employees.employees_payslip_templates</field>
+        <field name="report_file">Employees.employees_payslip_templates</field>
+        <field name="binding_model_id" ref="model_employees_payslip"/>
+        <field name="binding_type">report</field>
+    </record>
+</odoo>

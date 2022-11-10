@@ -9,14 +9,9 @@ class Employees_Project(models.Model):
     validity=fields.Integer(default=7)
     date_deadline=fields.Date(compute="compute_total",store=True)
     user_id=fields.Many2one(related="project_employees.user_id",group="Employees.group_employees_manager")
-    state=fields.Selection(selection=[('draft','Draft'),('in process','In Process'),('cancel','Cancel'),('finish','Finish')])
+    state=fields.Selection(selection=[('draft','Draft'),('in process','In Process'),('cancel','Cancel'),('finish','Finish')], default='draft')
 
-    @api.constrains("name")
-    def _check_name(self):
-        for record in self:
-            if record.name==self.name:
-                raise ValidationError(_("The Name of project has been used"))
-    
+
     
     @api.depends("validity","create_date")
     def compute_total(self):
@@ -31,12 +26,16 @@ class Employees_Project(models.Model):
     def action_in_process(self):
         for record in self:
             record.write({'state':'in process'})
+    
     def action_cancel(self):
         for record in self:
             record.write({'state':'cancel'})
+    
     def action_finish(self):
         for record in self:
             record.write({'state':'finish'})        
+    
+
     def action_test(self):
        pass
     

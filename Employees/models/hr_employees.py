@@ -8,8 +8,11 @@ class Employees_Information(models.Model):
     name=fields.Char('Name')
     active=fields.Boolean(group="Employees.group_employees_manager",default=True)
     avatar=fields.Image(string='Avatar',max_width=128, max_height=128)
+    first_name=fields.Char("First Name")
+    last_name=fields.Char("Last Name")
+    age=fields.Float(string='Age',compute='_compute_age')
     job_tittles=fields.Char('Job Tittle',required=True)
-    ids_employees=fields.Char('ID Employees',required=True)
+    id_employees=fields.Char('ID Employees',required=True)
     gender=fields.Selection(selection=[('Male','Male'),('Female','Female'),('Other','Other')])
     date_of_birth=fields.Date('Date Of Birth')
     nationality=fields.Char('Nationality')
@@ -34,10 +37,17 @@ class Employees_Information(models.Model):
     attendance_ids=fields.One2many(comodel_name="employees.attendance",inverse_name="employees_id")
     
     
+    @api.depends("date_of_birth")
+    def _compute_age(self):
+        for record in self:
+            if record.date_of_birth:
+                record.age=float(fields.date.today().year)-(record.date_of_birth.year)
+            else:
+                record.age=False
     def name_get(self):
         res=[]
         for employees in self:
-            b = employees.name + employees.job_tittles
+            b = employees.name +" " +employees.job_tittles
             res.append((employees.id, b))
         return res
     
@@ -69,9 +79,9 @@ class Employees_Information(models.Model):
                 record.holidays_count=False
                 
     # @api.model
-    # def create(self,vals):
-    #     vals['name']=vals['first_name']+" "+vals['last_name']
-    #     return super(Employees_Information,self).create(vals)
+    def create(self,vals):
+        vals['name']=vals['first_name']+" "+vals['last_name']
+        return super(Employees_Information,self).create(vals)
 
     # def test(self):
     #     public_user=self.env.ref('Employees.group_employees_user')

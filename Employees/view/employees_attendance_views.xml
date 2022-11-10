@@ -41,6 +41,17 @@
 	</field>
 </record>
 
+<record id="employees_attendance_search" model="ir.ui.view">
+	<field name="name">Employees Attendance Search</field>
+	<field name="model">employees.attendance</field>
+	<field name="arch" type="xml">
+		<search>
+			<field name="check_in"/>
+			<filter name="check_in" date="check_in"/>
+		</search>
+	</field>
+</record>
+
 
 <record id="Employees_Attendance_Action" model="ir.actions.act_window">
 	<field name="name">Employees Attendance Actions</field>

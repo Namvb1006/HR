@@ -20,7 +20,9 @@
         'view/employees_menus.xml',
         'wizard/add_department.xml',
         'reports/employees_information_report.xml',
-        'reports/employees_information_templates.xml'
+        'reports/employees_information_templates.xml',
+        'reports/employees_payslip_report.xml',
+        'reports/employees_payslip_templates.xml'
         ],
     'demo':[
         'demo/hr_department_demo.xml'
