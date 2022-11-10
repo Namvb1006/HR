@@ -3,6 +3,7 @@
 	<name>viin_employees</name>
 	<comment></comment>
 	<projects>
+		<project>0.odoo15</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
